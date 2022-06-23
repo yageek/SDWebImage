@@ -6,7 +6,7 @@
 * file that was distributed with this source code.
 */
 
-#import "SDDeviceHelper.h"
+#import <SDWebImage/SDDeviceHelper.h>
 #import <mach/mach.h>
 
 @implementation SDDeviceHelper

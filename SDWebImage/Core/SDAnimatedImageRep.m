@@ -6,15 +6,15 @@
  * file that was distributed with this source code.
  */
 
-#import "SDAnimatedImageRep.h"
+#import <SDWebImage/SDAnimatedImageRep.h>
 
 #if SD_MAC
 
-#import "SDImageIOAnimatedCoderInternal.h"
-#import "SDImageGIFCoder.h"
-#import "SDImageAPNGCoder.h"
-#import "SDImageHEICCoder.h"
-#import "SDImageAWebPCoder.h"
+#import <SDWebImage/SDImageIOAnimatedCoderInternal.h>
+#import <SDWebImage/SDImageGIFCoder.h>
+#import <SDWebImage/SDImageAPNGCoder.h>
+#import <SDWebImage/SDImageHEICCoder.h>
+#import <SDWebImage/SDImageAWebPCoder.h>
 
 @implementation SDAnimatedImageRep {
     CGImageSourceRef _imageSource;

@@ -10,9 +10,9 @@
 
 #if SD_UIKIT
 
-#import "UIView+WebCacheOperation.h"
-#import "UIView+WebCache.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/UIView+WebCacheOperation.h>
+#import <SDWebImage/UIView+WebCache.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 static NSString * const SDHighlightedImageOperationKey = @"UIImageViewImageOperationHighlighted";
 

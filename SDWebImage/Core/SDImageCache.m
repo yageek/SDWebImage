@@ -6,14 +6,14 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageCache.h"
-#import "NSImage+Compatibility.h"
-#import "SDImageCodersManager.h"
-#import "SDImageCoderHelper.h"
-#import "SDAnimatedImage.h"
-#import "UIImage+MemoryCacheCost.h"
-#import "UIImage+Metadata.h"
-#import "UIImage+ExtendedCacheData.h"
+#import <SDWebImage/SDImageCache.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <SDWebImage/SDImageCodersManager.h>
+#import <SDWebImage/SDImageCoderHelper.h>
+#import <SDWebImage/SDAnimatedImage.h>
+#import <SDWebImage/UIImage+MemoryCacheCost.h>
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/UIImage+ExtendedCacheData.h>
 
 static NSString * _defaultDiskCacheDirectory;
 

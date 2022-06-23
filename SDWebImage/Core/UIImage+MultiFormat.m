@@ -6,8 +6,8 @@
  * file that was distributed with this source code.
  */
 
-#import "UIImage+MultiFormat.h"
-#import "SDImageCodersManager.h"
+#import <SDWebImage/UIImage+MultiFormat.h>
+#import <SDWebImage/SDImageCodersManager.h>
 
 @implementation UIImage (MultiFormat)
 

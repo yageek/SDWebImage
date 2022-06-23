@@ -6,10 +6,10 @@
  * file that was distributed with this source code.
  */
 
-#import "UIImage+Metadata.h"
-#import "NSImage+Compatibility.h"
-#import "SDInternalMacros.h"
-#import "objc/runtime.h"
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <SDWebImage/SDInternalMacros.h>
+#import <objc/runtime.h>
 
 @implementation UIImage (Metadata)
 

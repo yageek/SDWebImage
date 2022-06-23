@@ -6,8 +6,8 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageAssetManager.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDImageAssetManager.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 static NSArray *SDBundlePreferredScales() {
     static NSArray *scales;

@@ -6,13 +6,13 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageTransition.h"
+#import <SDWebImage/SDWebImageTransition.h>
 
 #if SD_UIKIT || SD_MAC
 
 #if SD_MAC
-#import "SDWebImageTransitionInternal.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDWebImageTransitionInternal.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 CAMediaTimingFunction * SDTimingFunctionFromAnimationOptions(SDWebImageAnimationOptions options) {
     if (SD_OPTIONS_CONTAINS(SDWebImageAnimationOptionCurveLinear, options)) {

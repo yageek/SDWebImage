@@ -10,10 +10,10 @@
 
 #if SD_MAC
 
-#import "objc/runtime.h"
-#import "UIView+WebCacheOperation.h"
-#import "UIView+WebCache.h"
-#import "SDInternalMacros.h"
+#import <objc/runtime.h>
+#import <SDWebImage/UIView+WebCacheOperation.h>
+#import <SDWebImage/UIView+WebCache.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 static NSString * const SDAlternateImageOperationKey = @"NSButtonAlternateImageOperation";
 

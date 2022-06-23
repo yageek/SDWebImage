@@ -7,13 +7,13 @@
  * file that was distributed with this source code.
  */
 
-#import "NSData+ImageContentType.h"
+#import <SDWebImage/NSData+ImageContentType.h>
 #if SD_MAC
 #import <CoreServices/CoreServices.h>
 #else
 #import <MobileCoreServices/MobileCoreServices.h>
 #endif
-#import "SDImageIOAnimatedCoderInternal.h"
+#import <SDWebImage/SDImageIOAnimatedCoderInternal.h>
 
 #define kSVGTagEnd @"</svg>"
 

@@ -6,10 +6,10 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageCachesManager.h"
-#import "SDImageCachesManagerOperation.h"
-#import "SDImageCache.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDImageCachesManager.h>
+#import <SDWebImage/SDImageCachesManagerOperation.h>
+#import <SDWebImage/SDImageCache.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 @interface SDImageCachesManager ()
 

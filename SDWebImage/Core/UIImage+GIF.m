@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 
-#import "UIImage+GIF.h"
-#import "SDImageGIFCoder.h"
+#import <SDWebImage/UIImage+GIF.h>
+#import <SDWebImage/SDImageGIFCoder.h>
 
 @implementation UIImage (GIF)
 

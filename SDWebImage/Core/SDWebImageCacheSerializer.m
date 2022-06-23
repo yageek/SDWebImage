@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageCacheSerializer.h"
+#import <SDWebImage/SDWebImageCacheSerializer.h>
 
 @interface SDWebImageCacheSerializer ()
 

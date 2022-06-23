@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageOptionsProcessor.h"
+#import <SDWebImage/SDWebImageOptionsProcessor.h>
 
 @interface SDWebImageOptionsResult ()
 

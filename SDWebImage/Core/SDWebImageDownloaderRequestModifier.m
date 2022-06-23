@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageDownloaderRequestModifier.h"
+#import <SDWebImage/SDWebImageDownloaderRequestModifier.h>
 
 @interface SDWebImageDownloaderRequestModifier ()
 

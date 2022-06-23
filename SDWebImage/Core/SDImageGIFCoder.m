@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageGIFCoder.h"
+#import <SDWebImage/SDImageGIFCoder.h>
 #if SD_MAC
 #import <CoreServices/CoreServices.h>
 #else

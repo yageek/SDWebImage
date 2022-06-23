@@ -7,7 +7,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /// A Image-Asset manager to work like UIKit/AppKit's image cache behavior
 /// Apple parse the Asset Catalog compiled file(`Assets.car`) by CoreUI.framework, however it's a private framework and there are no other ways to directly get the data. So we just process the normal bundle files :)

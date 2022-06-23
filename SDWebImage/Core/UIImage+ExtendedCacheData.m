@@ -7,7 +7,7 @@
 * file that was distributed with this source code.
 */
 
-#import "UIImage+ExtendedCacheData.h"
+#import <SDWebImage/UIImage+ExtendedCacheData.h>
 #import <objc/runtime.h>
 
 @implementation UIImage (ExtendedCacheData)

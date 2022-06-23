@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageError.h"
+#import <SDWebImage/SDWebImageError.h>
 
 NSErrorDomain const _Nonnull SDWebImageErrorDomain = @"SDWebImageErrorDomain";
 NSErrorUserInfoKey const _Nonnull SDWebImageErrorDownloadStatusCodeKey = @"SDWebImageErrorDownloadStatusCodeKey";

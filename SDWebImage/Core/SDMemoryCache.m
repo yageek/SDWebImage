@@ -6,10 +6,10 @@
  * file that was distributed with this source code.
  */
 
-#import "SDMemoryCache.h"
-#import "SDImageCacheConfig.h"
-#import "UIImage+MemoryCacheCost.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDMemoryCache.h>
+#import <SDWebImage/SDImageCacheConfig.h>
+#import <SDWebImage/UIImage+MemoryCacheCost.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 static void * SDMemoryCacheContext = &SDMemoryCacheContext;
 

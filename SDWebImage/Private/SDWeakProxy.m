@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWeakProxy.h"
+#import <SDWebImage/SDWeakProxy.h>
 
 @implementation SDWeakProxy
 

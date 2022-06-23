@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "UIColor+SDHexString.h"
+#import <SDWebImage/UIColor+SDHexString.h>
 
 @implementation UIColor (SDHexString)
 

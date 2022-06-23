@@ -6,10 +6,10 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageDefine.h"
-#import "UIImage+Metadata.h"
-#import "NSImage+Compatibility.h"
-#import "SDAssociatedObject.h"
+#import <SDWebImage/SDWebImageDefine.h>
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <SDWebImage/SDAssociatedObject.h>
 
 #pragma mark - Image scale
 

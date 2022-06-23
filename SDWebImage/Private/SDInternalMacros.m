@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDInternalMacros.h>
 
 void sd_executeCleanupBlock (__strong sd_cleanupBlock_t *block) {
     (*block)();

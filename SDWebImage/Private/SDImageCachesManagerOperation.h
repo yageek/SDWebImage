@@ -7,7 +7,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /// This is used for operation management, but not for operation queue execute
 @interface SDImageCachesManagerOperation : NSOperation

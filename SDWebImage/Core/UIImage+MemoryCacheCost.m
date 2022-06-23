@@ -6,9 +6,9 @@
  * file that was distributed with this source code.
  */
 
-#import "UIImage+MemoryCacheCost.h"
-#import "objc/runtime.h"
-#import "NSImage+Compatibility.h"
+#import <SDWebImage/UIImage+MemoryCacheCost.h>
+#import <objc/runtime.h>
+#import <SDWebImage/NSImage+Compatibility.h>
 
 FOUNDATION_STATIC_INLINE NSUInteger SDMemoryCacheCostForImage(UIImage *image) {
     CGImageRef imageRef = image.CGImage;

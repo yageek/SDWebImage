@@ -6,8 +6,8 @@
 * file that was distributed with this source code.
 */
 
-#import "SDDisplayLink.h"
-#import "SDWeakProxy.h"
+#import <SDWebImage/SDDisplayLink.h>
+#import <SDWebImage/SDWeakProxy.h>
 #if SD_MAC
 #import <CoreVideo/CoreVideo.h>
 #elif SD_IOS || SD_TV

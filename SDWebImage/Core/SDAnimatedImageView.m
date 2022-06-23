@@ -6,14 +6,14 @@
  * file that was distributed with this source code.
  */
 
-#import "SDAnimatedImageView.h"
+#import <SDWebImage/SDAnimatedImageView.h>
 
 #if SD_UIKIT || SD_MAC
 
-#import "UIImage+Metadata.h"
-#import "NSImage+Compatibility.h"
-#import "SDInternalMacros.h"
-#import "objc/runtime.h"
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <SDWebImage/SDInternalMacros.h>
+#import <objc/runtime.h>
 
 @interface UIImageView () <CALayerDelegate>
 @end

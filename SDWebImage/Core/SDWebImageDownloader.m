@@ -6,11 +6,11 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageDownloader.h"
-#import "SDWebImageDownloaderConfig.h"
-#import "SDWebImageDownloaderOperation.h"
-#import "SDWebImageError.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDWebImageDownloader.h>
+#import <SDWebImage/SDWebImageDownloaderConfig.h>
+#import <SDWebImage/SDWebImageDownloaderOperation.h>
+#import <SDWebImage/SDWebImageError.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 NSNotificationName const SDWebImageDownloadStartNotification = @"SDWebImageDownloadStartNotification";
 NSNotificationName const SDWebImageDownloadReceiveResponseNotification = @"SDWebImageDownloadReceiveResponseNotification";
@@ -53,7 +53,7 @@ static void * SDWebImageDownloaderContext = &SDWebImageDownloaderContext;
 
 + (void)initialize {
     // Bind SDNetworkActivityIndicator if available (download it here: http://github.com/rs/SDNetworkActivityIndicator )
-    // To use it, just add #import "SDNetworkActivityIndicator.h" in addition to the SDWebImage import
+    // To use it, just add #import <SDWebImage/SDNetworkActivityIndicator.h> in addition to the SDWebImage import
     if (NSClassFromString(@"SDNetworkActivityIndicator")) {
 
 #pragma clang diagnostic push

@@ -6,7 +6,7 @@
 * file that was distributed with this source code.
 */
 
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /// Copy the associated object from source image to target image. The associated object including all the category read/write properties.
 /// @param source source

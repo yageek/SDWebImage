@@ -6,11 +6,11 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageDownloaderOperation.h"
-#import "SDWebImageError.h"
-#import "SDInternalMacros.h"
-#import "SDWebImageDownloaderResponseModifier.h"
-#import "SDWebImageDownloaderDecryptor.h"
+#import <SDWebImage/SDWebImageDownloaderOperation.h>
+#import <SDWebImage/SDWebImageError.h>
+#import <SDWebImage/SDInternalMacros.h>
+#import <SDWebImage/SDWebImageDownloaderResponseModifier.h>
+#import <SDWebImage/SDWebImageDownloaderDecryptor.h>
 
 static NSString *const kProgressCallbackKey = @"progress";
 static NSString *const kCompletedCallbackKey = @"completed";

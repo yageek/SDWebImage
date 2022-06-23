@@ -7,9 +7,9 @@
  */
 
 #import "UIImageView+WebCache.h"
-#import "objc/runtime.h"
-#import "UIView+WebCacheOperation.h"
-#import "UIView+WebCache.h"
+#import <objc/runtime.h>
+#import <SDWebImage/UIView+WebCacheOperation.h>
+#import <SDWebImage/UIView+WebCache.h>
 
 @implementation UIImageView (WebCache)
 

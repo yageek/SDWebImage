@@ -6,13 +6,13 @@
 * file that was distributed with this source code.
 */
 
-#import "SDImageIOAnimatedCoder.h"
-#import "NSImage+Compatibility.h"
-#import "UIImage+Metadata.h"
-#import "NSData+ImageContentType.h"
-#import "SDImageCoderHelper.h"
-#import "SDAnimatedImageRep.h"
-#import "UIImage+ForceDecode.h"
+#import <SDWebImage/SDImageIOAnimatedCoder.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/NSData+ImageContentType.h>
+#import <SDWebImage/SDImageCoderHelper.h>
+#import <SDWebImage/SDAnimatedImageRep.h>
+#import <SDWebImage/UIImage+ForceDecode.h>
 
 // Specify DPI for vector format in CGImageSource, like PDF
 static NSString * kSDCGImageSourceRasterizationDPI = @"kCGImageSourceRasterizationDPI";

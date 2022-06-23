@@ -6,8 +6,8 @@
 * file that was distributed with this source code.
 */
 
-#import "SDGraphicsImageRenderer.h"
-#import "SDImageGraphics.h"
+#import <SDWebImage/SDGraphicsImageRenderer.h>
+#import <SDWebImage/SDImageGraphics.h>
 
 @interface SDGraphicsImageRendererFormat ()
 #if SD_UIKIT

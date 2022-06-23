@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageFrame.h"
+#import <SDWebImage/SDImageFrame.h>
 
 @interface SDImageFrame ()
 

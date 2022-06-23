@@ -6,15 +6,15 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageCoderHelper.h"
-#import "SDImageFrame.h"
-#import "NSImage+Compatibility.h"
-#import "NSData+ImageContentType.h"
-#import "SDAnimatedImageRep.h"
-#import "UIImage+ForceDecode.h"
-#import "SDAssociatedObject.h"
-#import "UIImage+Metadata.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDImageCoderHelper.h>
+#import <SDWebImage/SDImageFrame.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <SDWebImage/NSData+ImageContentType.h>
+#import <SDWebImage/SDAnimatedImageRep.h>
+#import <SDWebImage/UIImage+ForceDecode.h>
+#import <SDWebImage/SDAssociatedObject.h>
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/SDInternalMacros.h>
 #import <Accelerate/Accelerate.h>
 
 static inline size_t SDByteAlign(size_t size, size_t alignment) {

@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 #if !__has_feature(objc_arc)
     #error SDWebImage is ARC only. Either turn on ARC for the project or use -fobjc-arc flag

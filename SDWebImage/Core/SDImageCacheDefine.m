@@ -6,12 +6,12 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageCacheDefine.h"
-#import "SDImageCodersManager.h"
-#import "SDImageCoderHelper.h"
-#import "SDAnimatedImage.h"
-#import "UIImage+Metadata.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDImageCacheDefine.h>
+#import <SDWebImage/SDImageCodersManager.h>
+#import <SDWebImage/SDImageCoderHelper.h>
+#import <SDWebImage/SDAnimatedImage.h>
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 UIImage * _Nullable SDImageCacheDecodeImageData(NSData * _Nonnull imageData, NSString * _Nonnull cacheKey, SDWebImageOptions options, SDWebImageContext * _Nullable context) {
     UIImage *image;

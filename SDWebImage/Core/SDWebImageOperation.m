@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageOperation.h"
+#import <SDWebImage/SDWebImageOperation.h>
 
 /// NSOperation conform to `SDWebImageOperation`.
 @implementation NSOperation (SDWebImageOperation)

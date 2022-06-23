@@ -6,9 +6,9 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageLoadersManager.h"
-#import "SDWebImageDownloader.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDImageLoadersManager.h>
+#import <SDWebImage/SDWebImageDownloader.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 @interface SDImageLoadersManager ()
 

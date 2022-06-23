@@ -6,12 +6,12 @@
  * file that was distributed with this source code.
  */
 
-#import "SDAnimatedImageView+WebCache.h"
+#import <SDWebImage/SDAnimatedImageView+WebCache.h>
 
 #if SD_UIKIT || SD_MAC
 
-#import "UIView+WebCache.h"
-#import "SDAnimatedImage.h"
+#import <SDWebImage/UIView+WebCache.h>
+#import <SDWebImage/SDAnimatedImage.h>
 
 @implementation SDAnimatedImageView (WebCache)
 

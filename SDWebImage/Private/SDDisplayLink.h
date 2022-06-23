@@ -7,7 +7,7 @@
 */
 
 #import <Foundation/Foundation.h>
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /// Cross-platform display link wrapper. Do not retain the target
 /// Use `CADisplayLink` on iOS/tvOS, `CVDisplayLink` on macOS, `NSTimer` on watchOS

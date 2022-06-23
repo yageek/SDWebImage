@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageCacheKeyFilter.h"
+#import <SDWebImage/SDWebImageCacheKeyFilter.h>
 
 @interface SDWebImageCacheKeyFilter ()
 

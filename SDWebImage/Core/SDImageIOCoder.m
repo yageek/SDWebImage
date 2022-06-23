@@ -6,12 +6,12 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageIOCoder.h"
-#import "SDImageCoderHelper.h"
-#import "NSImage+Compatibility.h"
+#import <SDWebImage/SDImageIOCoder.h>
+#import <SDWebImage/SDImageCoderHelper.h>
+#import <SDWebImage/NSImage+Compatibility.h>
 #import <ImageIO/ImageIO.h>
-#import "UIImage+Metadata.h"
-#import "SDImageIOAnimatedCoderInternal.h"
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/SDImageIOAnimatedCoderInternal.h>
 
 // Specify File Size for lossy format encoding, like JPEG
 static NSString * kSDCGImageDestinationRequestedFileSize = @"kCGImageDestinationRequestedFileSize";

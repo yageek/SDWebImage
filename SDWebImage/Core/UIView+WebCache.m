@@ -6,12 +6,12 @@
  * file that was distributed with this source code.
  */
 
-#import "UIView+WebCache.h"
-#import "objc/runtime.h"
-#import "UIView+WebCacheOperation.h"
-#import "SDWebImageError.h"
-#import "SDInternalMacros.h"
-#import "SDWebImageTransitionInternal.h"
+#import <SDWebImage/UIView+WebCache.h>
+#import <objc/runtime.h>
+#import <SDWebImage/UIView+WebCacheOperation.h>
+#import <SDWebImage/SDWebImageError.h>
+#import <SDWebImage/SDInternalMacros.h>
+#import <SDWebImage/SDWebImageTransitionInternal.h>
 
 const int64_t SDWebImageProgressUnitCountUnknown = 1LL;
 

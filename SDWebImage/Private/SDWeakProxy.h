@@ -7,7 +7,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /// A weak proxy which forward all the message to the target
 @interface SDWeakProxy : NSProxy

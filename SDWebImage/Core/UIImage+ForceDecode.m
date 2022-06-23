@@ -6,9 +6,9 @@
  * file that was distributed with this source code.
  */
 
-#import "UIImage+ForceDecode.h"
-#import "SDImageCoderHelper.h"
-#import "objc/runtime.h"
+#import <SDWebImage/UIImage+ForceDecode.h>
+#import <SDWebImage/SDImageCoderHelper.h>
+#import <objc/runtime.h>
 
 @implementation UIImage (ForceDecode)
 

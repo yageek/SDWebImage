@@ -6,10 +6,10 @@
  * file that was distributed with this source code.
  */
 
-#import "UIImage+Transform.h"
-#import "NSImage+Compatibility.h"
-#import "SDImageGraphics.h"
-#import "SDGraphicsImageRenderer.h"
+#import <SDWebImage/UIImage+Transform.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <SDWebImage/SDImageGraphics.h>
+#import <SDWebImage/SDGraphicsImageRenderer.h>
 #import "NSBezierPath+SDRoundedCorners.h"
 #import <Accelerate/Accelerate.h>
 #if SD_UIKIT || SD_MAC

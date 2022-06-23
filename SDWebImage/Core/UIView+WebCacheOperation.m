@@ -6,8 +6,8 @@
  * file that was distributed with this source code.
  */
 
-#import "UIView+WebCacheOperation.h"
-#import "objc/runtime.h"
+#import <SDWebImage/UIView+WebCacheOperation.h>
+#import <objc/runtime.h>
 
 static char loadOperationKey;
 

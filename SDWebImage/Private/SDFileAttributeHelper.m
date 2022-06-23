@@ -5,7 +5,7 @@
 //  Copyright 2008-2009 namedfork.net. All rights reserved.
 //
 
-#import "SDFileAttributeHelper.h"
+#import <SDWebImage/SDFileAttributeHelper.h>
 #import <sys/xattr.h>
 
 @implementation SDFileAttributeHelper

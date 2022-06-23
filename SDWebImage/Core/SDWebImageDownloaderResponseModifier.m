@@ -7,7 +7,7 @@
 */
 
 
-#import "SDWebImageDownloaderResponseModifier.h"
+#import <SDWebImage/SDWebImageDownloaderResponseModifier.h>
 
 @interface SDWebImageDownloaderResponseModifier ()
 

@@ -6,7 +6,7 @@
 * file that was distributed with this source code.
 */
 
-#import "SDWebImageDownloaderDecryptor.h"
+#import <SDWebImage/SDWebImageDownloaderDecryptor.h>
 
 @interface SDWebImageDownloaderDecryptor ()
 

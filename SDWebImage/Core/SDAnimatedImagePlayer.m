@@ -6,11 +6,11 @@
 * file that was distributed with this source code.
 */
 
-#import "SDAnimatedImagePlayer.h"
-#import "NSImage+Compatibility.h"
-#import "SDDisplayLink.h"
-#import "SDDeviceHelper.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDAnimatedImagePlayer.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <SDWebImage/SDDisplayLink.h>
+#import <SDWebImage/SDDeviceHelper.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 @interface SDAnimatedImagePlayer () {
     SD_LOCK_DECLARE(_lock);

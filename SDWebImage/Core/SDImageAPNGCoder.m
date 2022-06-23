@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageAPNGCoder.h"
+#import <SDWebImage/SDImageAPNGCoder.h>
 #if SD_MAC
 #import <CoreServices/CoreServices.h>
 #else

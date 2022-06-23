@@ -6,8 +6,8 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageCachesManagerOperation.h"
-#import "SDInternalMacros.h"
+#import <SDWebImage/SDImageCachesManagerOperation.h>
+#import <SDWebImage/SDInternalMacros.h>
 
 @implementation SDImageCachesManagerOperation {
     SD_LOCK_DECLARE(_pendingCountLock);

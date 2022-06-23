@@ -6,9 +6,9 @@
  * file that was distributed with this source code.
  */
 
-#import "SDDiskCache.h"
-#import "SDImageCacheConfig.h"
-#import "SDFileAttributeHelper.h"
+#import <SDWebImage/SDDiskCache.h>
+#import <SDWebImage/SDImageCacheConfig.h>
+#import <SDWebImage/SDFileAttributeHelper.h>
 #import <CommonCrypto/CommonDigest.h>
 
 static NSString * const SDDiskCacheExtendedAttributeName = @"com.hackemist.SDDiskCache";

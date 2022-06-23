@@ -6,9 +6,9 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageGraphics.h"
-#import "NSImage+Compatibility.h"
-#import "objc/runtime.h"
+#import <SDWebImage/SDImageGraphics.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <objc/runtime.h>
 
 #if SD_MAC
 static void *kNSGraphicsContextScaleFactorKey;

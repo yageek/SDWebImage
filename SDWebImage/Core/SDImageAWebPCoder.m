@@ -6,8 +6,8 @@
 * file that was distributed with this source code.
 */
 
-#import "SDImageAWebPCoder.h"
-#import "SDImageIOAnimatedCoderInternal.h"
+#import <SDWebImage/SDImageAWebPCoder.h>
+#import <SDWebImage/SDImageIOAnimatedCoderInternal.h>
 
 // These constants are available from iOS 14+ and Xcode 12. This raw value is used for toolchain and firmware compatibility
 static NSString * kSDCGImagePropertyWebPDictionary = @"{WebP}";

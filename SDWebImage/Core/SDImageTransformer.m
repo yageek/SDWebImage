@@ -6,8 +6,8 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageTransformer.h"
-#import "UIColor+SDHexString.h"
+#import <SDWebImage/SDImageTransformer.h>
+#import <SDWebImage/UIColor+SDHexString.h>
 #if SD_UIKIT || SD_MAC
 #import <CoreImage/CoreImage.h>
 #endif

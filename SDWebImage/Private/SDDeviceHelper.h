@@ -7,7 +7,7 @@
 */
 
 #import <Foundation/Foundation.h>
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /// Device information helper methods
 @interface SDDeviceHelper : NSObject

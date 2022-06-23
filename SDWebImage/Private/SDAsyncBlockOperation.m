@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDAsyncBlockOperation.h"
+#import <SDWebImage/SDAsyncBlockOperation.h>
 
 @interface SDAsyncBlockOperation ()
 

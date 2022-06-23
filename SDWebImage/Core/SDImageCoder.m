@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageCoder.h"
+#import <SDWebImage/SDImageCoder.h>
 
 SDImageCoderOption const SDImageCoderDecodeFirstFrameOnly = @"decodeFirstFrameOnly";
 SDImageCoderOption const SDImageCoderDecodeScaleFactor = @"decodeScaleFactor";

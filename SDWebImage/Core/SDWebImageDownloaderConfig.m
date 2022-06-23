@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageDownloaderConfig.h"
+#import <SDWebImage/SDWebImageDownloaderConfig.h>
 
 static SDWebImageDownloaderConfig * _defaultDownloaderConfig;
 

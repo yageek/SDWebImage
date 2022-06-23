@@ -6,9 +6,9 @@
  * file that was distributed with this source code.
  */
 
-#import "SDImageCacheConfig.h"
-#import "SDMemoryCache.h"
-#import "SDDiskCache.h"
+#import <SDWebImage/SDImageCacheConfig.h>
+#import <SDWebImage/SDMemoryCache.h>
+#import <SDWebImage/SDDiskCache.h>
 
 static SDImageCacheConfig *_defaultCacheConfig;
 static const NSInteger kDefaultCacheMaxDiskAge = 60 * 60 * 24 * 7; // 1 week

@@ -6,17 +6,17 @@
  * file that was distributed with this source code.
  */
 
-#import "SDAnimatedImage.h"
-#import "NSImage+Compatibility.h"
-#import "SDImageCoder.h"
-#import "SDImageCodersManager.h"
-#import "SDImageFrame.h"
-#import "UIImage+MemoryCacheCost.h"
-#import "UIImage+Metadata.h"
-#import "UIImage+MultiFormat.h"
-#import "SDImageCoderHelper.h"
-#import "SDImageAssetManager.h"
-#import "objc/runtime.h"
+#import <SDWebImage/SDAnimatedImage.h>
+#import <SDWebImage/NSImage+Compatibility.h>
+#import <SDWebImage/SDImageCoder.h>
+#import <SDWebImage/SDImageCodersManager.h>
+#import <SDWebImage/SDImageFrame.h>
+#import <SDWebImage/UIImage+MemoryCacheCost.h>
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/UIImage+MultiFormat.h>
+#import <SDWebImage/SDImageCoderHelper.h>
+#import <SDWebImage/SDImageAssetManager.h>
+#import <objc/runtime.h>
 
 static CGFloat SDImageScaleFromPath(NSString *string) {
     if (string.length == 0 || [string hasSuffix:@"/"]) return 1;

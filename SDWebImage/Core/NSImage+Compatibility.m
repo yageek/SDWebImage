@@ -6,11 +6,11 @@
  * file that was distributed with this source code.
  */
 
-#import "NSImage+Compatibility.h"
+#import <SDWebImage/NSImage+Compatibility.h>
 
 #if SD_MAC
 
-#import "SDImageCoderHelper.h"
+#import <SDWebImage/SDImageCoderHelper.h>
 
 @implementation NSImage (Compatibility)
 

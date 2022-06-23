@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 @class SDAsyncBlockOperation;
 typedef void (^SDAsyncBlock)(SDAsyncBlockOperation * __nonnull asyncOperation);

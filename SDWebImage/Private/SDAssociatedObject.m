@@ -6,11 +6,11 @@
 * file that was distributed with this source code.
 */
 
-#import "SDAssociatedObject.h"
-#import "UIImage+Metadata.h"
-#import "UIImage+ExtendedCacheData.h"
-#import "UIImage+MemoryCacheCost.h"
-#import "UIImage+ForceDecode.h"
+#import <SDWebImage/SDAssociatedObject.h>
+#import <SDWebImage/UIImage+Metadata.h>
+#import <SDWebImage/UIImage+ExtendedCacheData.h>
+#import <SDWebImage/UIImage+MemoryCacheCost.h>
+#import <SDWebImage/UIImage+ForceDecode.h>
 
 void SDImageCopyAssociatedObject(UIImage * _Nullable source, UIImage * _Nullable target) {
     if (!source || !target) {
